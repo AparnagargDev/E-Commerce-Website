@@ -1,0 +1,42 @@
+.top_bg {
+    background-color: #f8f9fa; /* Light gray background */
+}
+
+/* Apply a background color to the header */
+.header_bg {
+    background-color: #f5298c; /* Blue background */
+}
+
+/* Set the color for text in the header */
+.header h2 {
+    color: #ffffff; /* White text */
+}
+
+/* Style links in the header */
+.header_right a {
+    color: #ffffff; /* White links */
+}
+
+.header_right a:hover {
+    color: #ffc107; /* Gold color on hover */
+}
+.btn-primary {
+    background-color: #28a745; /* Green background */
+    color: #ffffff; /* White text */
+}
+
+.btn-primary:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+/* Search input */
+.search input[type="text"] {
+    border: 1px solid #c91560; /* Light gray border */
+    border-radius: 4px; /* Rounded corners */
+    padding: 5px 10px; /* Padding inside the input */
+}
+
+.search input[type="submit"] {
+    background-color: #17a2b8; /* Teal background */
+    color: #ffffff; /* White text */
+}
