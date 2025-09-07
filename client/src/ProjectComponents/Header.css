@@ -1,0 +1,51 @@
+/* Force pink background on all header elements */
+.top_bg,
+.header_bg,
+.header,
+.head-t,
+.header_top,
+.container .header {
+    background-color: #EB92A8 !important;
+    background: #EB92A8 !important;
+}
+
+/* Additional force for any remaining elements */
+div[class*="header"],
+div[class*="top"] {
+    background-color: #EB92A8 !important;
+    background: #EB92A8 !important;
+}
+
+/* Set the color for text in the header */
+.header h2 {
+    color: #ffffff; /* White text */
+}
+
+/* Style links in the header */
+.header_right a {
+    color: #ffffff; /* White links */
+}
+
+.header_right a:hover {
+    color: #ffc107; /* Gold color on hover */
+}
+.btn-primary {
+    background-color: #272727; /* Dark gray background */
+    color: #ffffff; /* White text */
+}
+
+.btn-primary:hover {
+    background-color: #1a1a1a; /* Darker gray on hover */
+}
+
+/* Search input */
+.search input[type="text"] {
+    border: 1px solid #c91560; /* Light gray border */
+    border-radius: 4px; /* Rounded corners */
+    padding: 5px 10px; /* Padding inside the input */
+}
+
+.search input[type="submit"] {
+    background-color: #272727; /* Dark gray background */
+    color: #ffffff; /* White text */
+}

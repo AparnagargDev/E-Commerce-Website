@@ -1,0 +1,575 @@
+.center-text {
+    text-align: center;
+}
+.terms-container {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.terms-title {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #ff6978;;
+}
+
+.terms-intro {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+.terms-section {
+    margin-bottom: 20px;
+}
+
+.terms-section h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.terms-section p {
+    font-size: 1em;
+    line-height: 1.6;
+}  
+
+/* Login CSS */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    background-color: #f4f4f4; /* Light background color */
+}
+
+.login-form {
+    background-color: #fff; /* White background for form */
+    padding: 2rem;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    width: 100%;
+    max-width: 400px; /* Max width for form */
+}
+
+h2 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.input-group {
+    margin-bottom: 1rem;
+}
+
+.input-group label {
+    display: block;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.form-footer {
+    text-align: center;
+}
+
+.form-footer input[type="submit"] {
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+.form-footer input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.error-msg {
+    color: red;
+    margin-top: 1rem;
+}
+
+/* ListofUsers.css */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.user-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+.user-table th, .user-table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+
+.user-table th {
+    background-color: #ff6978;
+    color: #fff;
+}
+
+.user-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.user-table tr:hover {
+    background-color: #ddd;
+}
+
+.btn.btn-danger {
+    background-color: #ff4d4d;
+    border: none;
+    color: #fff;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.btn.btn-danger:hover {
+    background-color: #e60000;
+}
+
+.record-count {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.error-message {
+    color: red;
+    font-weight: bold;
+}
+
+/* Manage Category */
+.manage-category {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-image: url('/public/images/img8.jpg'); /* Set the path to your background image */
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+
+
+h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+big {
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    
+    color: #070002;
+
+}
+
+.form-container {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.form-group input[type="submit"],
+.form-group button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.form-group button {
+    background-color: #28a745;
+}
+
+.form-group input[type="submit"]:hover,
+.form-group button:hover {
+    background-color: #0056b3;
+}
+
+.table-container {
+    margin-top: 30px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+.breadcrumbs {
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #fff; /* Adjust based on your background image */
+}
+
+.breadcrumbs a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 5px;
+}
+
+.breadcrumbs a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    background: rgba(255, 255, 255, 0.9); /* Slightly transparent white background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Order history */
+
+.order-history-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+/* Breadcrumb styling */
+.breadcrumb {
+    padding: 10px 0;
+    margin-bottom: 20px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+}
+
+.breadcrumb li {
+    display: inline;
+    font-size: 14px;
+}
+
+.breadcrumb li + li:before {
+    content: " / ";
+    padding: 0 5px;
+}
+
+/* Content section styling */
+.order-history-content {
+    background: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Table styling */
+.order-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: #fff;
+}
+
+.order-table th, .order-table td {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.order-table th {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.order-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.order-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.order-table a {
+    color: #ff6978;
+    text-decoration: none;
+}
+
+.order-table a:hover {
+    text-decoration: underline;
+}
+
+/* Heading styling */
+.order-history-title {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Orders count styling */
+.order-count {
+    font-size: 16px;
+    color: #555;
+    margin-top: 20px;
+}
+
+/* No orders message styling */
+.no-orders {
+    color: #ff0000;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .order-table th, .order-table td {
+        font-size: 14px; /* Adjust font size for smaller screens */
+    }
+}
+
+/* BreadCrumbs */
+.breadcrumbs {
+    margin: 20px 0;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+
+
+.breadcrumbs a {
+    text-decoration: none;
+    color: #e9edf0;
+    font-weight: bold;
+}
+
+.breadcrumbs a:hover {
+    text-decoration: underline;
+}
+
+.breadcrumbs span {
+    margin: 0 10px;
+    color: #6c757d;
+}
+
+.breadcrumbs a + span::before {
+    content: '>';
+    margin: 0 10px;
+    color: #6c757d;
+}
+.ccontainer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: left;
+}
+.arriv-top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;  /* Centers items */
+    gap: 20px; /* Space between items */
+}
+
+.arriv-top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;  /* Centers items */
+    gap: 20px; /* Space between items */
+}
+
+.arriv-left {
+    flex: 1 1 calc(33.33% - 20px); /* 3 images per row */
+    max-width: calc(33.33% - 20px);
+    text-align: center;
+}
+
+.arriv-left img {
+    width: 100%;  
+    height: 300px; /* ✅ Set a fixed height for uniformity */
+    object-fit: cover; /* ✅ Ensures images fill the space without distortion */
+    border-radius: 10px; /* Optional: rounded corners for a modern look */
+}
+.latest-arrivals {
+    text-align: center;
+    font-family: 'Poppins', sans-serif; /* Change to any font you like */
+    font-size: 3rem; /* Increase the font size */
+    font-weight: 900; /* Make it extra bold */
+    margin-top: 50px; /* Add space above */
+    margin-bottom: 20px; /* Keep some space below */
+}
+
+/* Footer */
+.footer {
+    background-color: black;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.footer-column {
+    flex: 1;
+    min-width: 250px;
+    margin: 20px;
+    text-align: justify;
+}
+
+.footer h4 {
+    color: white;
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    border-bottom: 2px solid white;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.footer ul {
+    padding: 0;
+}
+
+.footer li {
+    list-style: none;
+    margin: 8px 0;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.footer a:hover {
+    color: #f8b400; /* Change color on hover */
+    text-decoration: underline;
+}
+
+/* Social Media Icons */
+.social-icons {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.social-icons a {
+    color: white;
+    font-size: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.social-icons a:hover {
+    transform: scale(1.2);
+    color: #f8b400;
+}
+
+/* Footer Bottom */
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid white;
+}
+
+
+/* Overall footer styles */
+
+/* Brand logo image */
+.brand-logo { 
+	display: inline-flex; 
+	align-items: center; 
+	text-decoration: none; 
+	position: relative;
+	padding: 4px 0;
+	transition: transform 0.3s ease;
+}
+
+/* Ensure logo is on the left side */
+.top_left {
+	text-align: left;
+	float: left;
+	width: 60%;
+}
+
+.top_right {
+	text-align: right;
+	float: right;
+	width: 20%;
+}
+.brand-logo:hover {
+	transform: scale(1.75);
+}
+.brand-logo-img {
+	height: 60px !important;
+	width: 300px !important;
+	max-width: 300px !important;
+	object-fit: contain !important;
+}
+
+/* More specific selectors to override any other CSS */
+.top_left .brand-logo img,
+.top_left .brand-logo-img,
+.brand-logo img,
+.brand-logo .brand-logo-img {
+	width: 300px !important;
+	max-width: 300px !important;
+	height: 60px !important;
+	object-fit: contain !important;
+}
